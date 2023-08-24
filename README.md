@@ -11,6 +11,7 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
 
 
 1. Dependent installation packages:
+
    Python 3.6+
    
    Numpy 1.17.3
@@ -20,9 +21,9 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
    scikit-image 0.17.2
    
    scikit-learn 0.24.2
-```
+
 2. __If you do not have GSL installed, or you are not sure__, the easiest way to get it installed is to use [conda](https://anaconda.org/conda-forge/gsl/):
-```
+
 conda install -c conda-forge gsl
 ```
 3. Make sure to add the location of the installed shared library to where the compiler/linker will be looking. If you used conda to install GSL to the default location in step 2, run the following command (or add the appropriate path if you already have GSL installed):
