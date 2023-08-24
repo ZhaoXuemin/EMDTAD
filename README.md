@@ -11,11 +11,15 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
 
 
 1. Dependent installation packages:
-   Python 3.6+\n
-   Numpy 1.17.3\n
-   EMD-signal 1.2.3\n
-   scikit-image 0.17.2\n
-   scikit-learn 0.24.2\n
+   Python 3.6+
+   
+   Numpy 1.17.3
+   
+   EMD-signal 1.2.3
+   
+   scikit-image 0.17.2
+   
+   scikit-learn 0.24.2
 ```
 2. __If you do not have GSL installed, or you are not sure__, the easiest way to get it installed is to use [conda](https://anaconda.org/conda-forge/gsl/):
 ```
