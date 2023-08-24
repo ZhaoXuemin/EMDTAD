@@ -27,7 +27,7 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
 
 3. Run EMDTAD.py
 
-   python EMDTAD.py input_Matrix_path Reuslt_file_path imd_deep diagonal_deep
+   python EMDTAD.py [input_Matrix_path] [Reuslt_file_path] [imd_deep] [diagonal_deep]
 
    eg
    ```
