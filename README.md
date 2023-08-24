@@ -26,7 +26,13 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
    git clone https://github.com/ZhaoXuemin/EMDTAD.git
 
 3. Run EMDTAD.py
-```
-python EMDTAD.py input_Matrix_path Reuslt_file_path imd_deep diagonal_deep
-```
+
+   python EMDTAD.py input_Matrix_path Reuslt_file_path imd_deep diagonal_deep
+
+   eg
+   ```
+   cd EMDTAD
+
+   python EMDTAD.py ./Example/mat ./Example/result.txt 3 30
+   ```
 4. The result is saved as a column of data where each row is the boundary position of a TAD 
