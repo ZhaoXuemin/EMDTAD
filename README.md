@@ -2,18 +2,20 @@
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
-GRiNCH applies non-negative matrix factorization (NMF) with graph regularization to discover clusters of highly interacting genomic regions from high-throughput chromosome conformation capture (Hi-C) data. GRiNCH can be used to smooth the input matrices, and can be applied to data from any 3D genome platforms (e.g. HiChIP, SPRITE) in a non-negative square matrix format. Now published in Genome Biology: [https://doi.org/10.1186/s13059-021-02378-z](https://doi.org/10.1186/s13059-021-02378-z)
+EMTAD introduces the Empirical Modal Decomposition (EMD) algorithm for mode decomposition and feature extraction in the Hi-C interaction matrix, which enables fast and accurate identification of Topological Associated Structural Domains (TADs) in the Hi-C interaction matrix.
 
 
 ### [Step 1] Install 
 
-Installation instructions below were tested in Linux Centos 7 distribution. [GSL (GNU Scientific Library)](https://www.gnu.org/software/gsl/doc/html/index.html) is used to handle matrix- and vector-related operations. 
+Installation instructions below were tested in Linux Ubuntu、MacOS. 
 
-1. __If you already have GSL installed__, edit the first few lines of the Makefile to point to the correct include and shared library directory, then jump to step 3.
-```
-#CHANGE PATHS AS NEEDED:
-INCLUDE_PATH = ${CONDA_PREFIX}/include
-LIBRARY_PATH = ${CONDA_PREFIX}/lib
+
+1. Dependent installation packages:
+   Python 3.6+
+   Numpy 1.17.3
+   EMD-signal 1.2.3
+   scikit-image 0.17.2
+   scikit-learn 0.24.2
 ```
 2. __If you do not have GSL installed, or you are not sure__, the easiest way to get it installed is to use [conda](https://anaconda.org/conda-forge/gsl/):
 ```
