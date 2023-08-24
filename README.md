@@ -5,7 +5,6 @@
 EMTAD introduces the Empirical Modal Decomposition (EMD) algorithm for mode decomposition and feature extraction in the Hi-C interaction matrix, which enables fast and accurate identification of Topological Associated Structural Domains (TADs) in the Hi-C interaction matrix.
 
 
-### [Step 1] Install 
 
 Installation instructions below were tested in Linux Ubuntu、MacOS. 
 
@@ -23,6 +22,7 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
    scikit-learn 0.24.2
 
 2. get code from github
+
    git clone https://github.com/ZhaoXuemin/EMDTAD.git
 
 3. Run EMDTAD.py
@@ -30,5 +30,3 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
 python EMDTAD.py input_Matrix_path Reuslt_file_path imd_deep diagonal_deep
 ```
 4. The result is saved as a column of data where each row is the boundary position of a TAD 
-
-
