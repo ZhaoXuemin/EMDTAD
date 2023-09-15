@@ -28,11 +28,14 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
 3. Parameters:
    
    1、Dense Hi-C interaction matrix File Path
+   
    2、Path to the output file
+   
    3、Intrinsic Mode Function layers
+   
    4、Window size of Empirical Modal Decomposition
    
-4. Run EMDTAD.py
+5. Run EMDTAD.py
 
    python EMDTAD.py [input_Matrix_path] [Reuslt_file_path] [imf_deep] [diagonal_deep]
 
@@ -42,4 +45,4 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
 
    python EMDTAD.py ./Example/mat.txt ./Example/result.txt 3 30
    ```
-5. The result is saved as a column of data where each row is the boundary position of a TAD 
+6. The result is saved as a column of data where each row is the boundary position of a TAD 
