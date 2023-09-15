@@ -24,10 +24,16 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
 2. get code from github
 
    git clone https://github.com/ZhaoXuemin/EMDTAD.git
+   
+3. Parameters
+   1、Dense Hi-C interaction matrix File Path
+   2、Path to the output file
+   3、Intrinsic Mode Function layers
+   4、Window size of Empirical Modal Decomposition
+   
+4. Run EMDTAD.py
 
-3. Run EMDTAD.py
-
-   python EMDTAD.py [input_Matrix_path] [Reuslt_file_path] [imd_deep] [diagonal_deep]
+   python EMDTAD.py [input_Matrix_path] [Reuslt_file_path] [imf_deep] [diagonal_deep]
 
    eg
    ```
@@ -35,4 +41,4 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
 
    python EMDTAD.py ./Example/mat.txt ./Example/result.txt 3 30
    ```
-4. The result is saved as a column of data where each row is the boundary position of a TAD 
+5. The result is saved as a column of data where each row is the boundary position of a TAD 
