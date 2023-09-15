@@ -21,11 +21,12 @@ Installation instructions below were tested in Linux Ubuntu、MacOS.
    
    scikit-learn 0.24.2
 
-2. get code from github
+2. get code from github:
 
    git clone https://github.com/ZhaoXuemin/EMDTAD.git
    
-3. Parameters
+3. Parameters:
+   
    1、Dense Hi-C interaction matrix File Path
    2、Path to the output file
    3、Intrinsic Mode Function layers
